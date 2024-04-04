@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body class=" bg-primary">
+    <!--header start-->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex
+    items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-second block py-6">
+                        Carolus Bramantyo
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-primary
+                    shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-second py-2 mx-8 flex
+                                group-hover:text-third">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-second py-2 mx-8 flex
+                                group-hover:text-third">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-second py-2 mx-8 flex
+                                group-hover:text-third"> Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-second py-2 mx-8 flex
+                                group-hover:text-third"> Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header end-->
+
+    <!-- hero section start-->
+    <section id="home" class="pt-7 pb-20">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2 text-second">
+                    <h1 class="text-base font-semibold lg:text-xl pt-10">Halo Semua, saya <span class="block font-bold text text-4xl mt-1 lg:text-5xl pb-2">Carolus Bramantyo Seno Maheswara</span></h1>
+                    <h2 class="font-medium text-lg mb-5 leading-relaxed">Web Designer | Graphic Designer</h2>
+                    <p class="font-medium mb-10">Web ini merupakan Portofolio saya yang bertujuan untuk memperlihatkan karya-karya saya.</p>
+                    <a href="assets/cv.pdf" download="" class="btn btn--download bg-third rounded-full py-3 px-8">Download CV</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="assets/nobg.png" alt="bram" 
+                        class="max-w-full: mx-auto"/>
+                        <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="300" height="350" xmlns="http://www.w3.org/2000/svg" id="SvgjsSvg1088" x="0" y="0" version="1.1" viewBox="0 0 497.502 497.502" width="200" height="200" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs"><path d="M433.498.009H65.071A64.21 64.21 0 0 0 63.996 0C28.649.005 0 28.663.004 64.009v368.427c.117 35.887 29.18 64.95 65.067 65.067h368.427c35.469-.695 63.891-29.591 64-65.067V64.009c0-35.346-28.654-64-64-64z" fill="rgba(82, 92, 235, 1) " ></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end-->
+    <!-- about section start-->
+    <section id="about" class="bg-second pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold text-third text-lg mb-3">About Me</h4>
+                    <p class="text-base mb-3 lg:text-lg">Hai perkenalkan nama saya Carolus Bramantyo Seno Maheswara, saya adalah seorang web desainer dan juga seorang grafis
+                        desainer</p>
+                </div>
+                <div class="w-full px-4 mb-5 lg:w-1/2">
+                    <h3 class="font-bold text-third text-lg mb-3">My Social Media</h3>
+                    <p class="text-base mb-3">untuk mengetahui tentang saya lebih lanjut silahkan kunjungi media sosial saya dibawah ini.</p>
+                    <div class="flex items-center">
+                        <!--youtueb-->
+                        <a class="pt-1" href="https://www.youtube.com/@marb3370" target="blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" viewBox="0 0 24 24">
+                                <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,14.598V9.402c0-0.385,0.417-0.625,0.75-0.433l4.5,2.598c0.333,0.192,0.333,0.674,0,0.866l-4.5,2.598 C10.417,15.224,10,14.983,10,14.598z"></path>
+                            </svg>
+                        </a>
+                        <a class="pt-1 px-3" href="https://www.instagram.com/toisiguy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" viewBox="0 0 30 30">
+                                <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- about section end-->
+    <!-- portofolio section end-->
+    <section id="portofolio" class="bg-second pt36 pb-32 ">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-third">Portofolio</h4>
+                    <h2 class="font-bold text-3xl mb-4">Graphic Design</h2>
+                </div>
+            </div>
+            <div class="min-w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden ">
+                        <img src="assets/my project.png" alt="poster AE-86"
+                        width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-base mt-5">Poster AE-86</h3>
+                </div>
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden ">
+                        <img  src="assets/frank sinatra.jpg" alt="poster frank"
+                        >
+                    </div>
+                    <h3 class="font-semibold text-base mt-5">Poster Frank Sinatra</h3>
+                </div>
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden ">
+                        <img  src="assets/kobe.jpg" alt="poster kbe"
+                        >
+                    </div>
+                    <h3 class="font-semibold text-base mt-5">Poster Kobe Bryant</h3>
+                </div>
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden ">
+                        <img  src="assets/sans_dulu.jpg" alt="poster AE-86"
+                        >
+                    </div>
+                    <h3 class="font-semibold text-base mt-5">Pixel Art</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="portofolio" class="bg-second pt36 pb-32 ">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-third">Portofolio</h4>
+                    <h2 class="font-bold text-3xl mb-4">Web Design</h2>
+                </div>
+            </div>
+            <div class="min-w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden ">
+                        <img src="assets/uiux.jpg" alt="poster AE-86"
+                        width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-base mt-5">Remake UI/UX Spotify</h3>
+                </div>
+                <div class="mb-12 p-4 lg:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden ">
+                        <img  src="assets/Desktop - 2.png" alt="poster frank"
+                        >
+                    </div>
+                    <h3 class="font-semibold text-base mt-5">Homepage untuk portofolio</h3>
+                </div>
+                
+            
+        </div>
+    </section>
+    <!-- portofollio section end-->
+    <section class="pt-10 pb-10">
+        <h1 class="mx-auto text-center text-second">Thank You</h1>
+    </section>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
